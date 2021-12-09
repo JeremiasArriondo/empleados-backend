@@ -1,0 +1,26 @@
+{
+  "name": "backend-empleados-app",
+  "version": "1.0.0",
+  "description": "Backend de app empleados",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Jeremias",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.10.3",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongodb": "^4.1.3",
+    "mongoose": "^6.0.10",
+    "nodemon": "^2.0.13"
+  }
+}
